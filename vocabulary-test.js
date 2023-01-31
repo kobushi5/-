@@ -1,5 +1,5 @@
 const ques ={
-    ques_ans_442:{
+    ques_ans_342:{
         "航海": "voyage",
         "〜を確認する":"confirm",
         "〜を確実にする":"ensure",
@@ -10,7 +10,7 @@ const ques ={
         "〜に警告する":"warn",
         "〜に強いる":"force"
     },
-    ques_ans_443:{
+    ques_ans_442:{
         "〜を見分ける":"discern",
         "〜をしつける":"discipline",
         "探検":"expedition",
@@ -34,7 +34,7 @@ const ques ={
         "認識する":"perceive",
         "人類学者":"anthropologist"
     }
-    //ques_ans_445:{
+    //ques_ans_446:{
     //    "":"",
     //    "":"",
     //    "":"",
@@ -46,7 +46,7 @@ const ques ={
     //    "":"",
     //    "":""
     //},
-    //ques_ans_446:{
+    //ques_ans_448:{
     //    "":"",
     //    "":"",
     //    "":"",
