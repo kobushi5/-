@@ -11,8 +11,53 @@ const ques ={
         "〜に強いる":"force"
     },
     ques_ans_443:{
-        "a":"1"
+        "〜を見分ける":"discern",
+        "〜をしつける":"discipline",
+        "探検":"expedition",
+        "授業料":"tuition",
+        "卒業証書":"diploma",
+        "入学する":"enroll",
+        "〜を調査する":"investigate",
+        "〜を探知する":"detect",
+        "能力":"faculty",
+        "詰め込み勉強をする":"cram"
+    },
+    ques_ans_444:{
+        "〜を理解する":"grasp",
+        "天文学":"astronomy",
+        "〜を予測する":"anticipate",
+        "推測する":"speculate",
+        "倫理":"ethic",
+        "〜を指導する":"mentor",
+        "考古学者":"archaeologist",
+        "〜を予知する":"foresee",
+        "認識する":"perceive",
+        "人類学者":"anthropologist"
     }
+    //ques_ans_445:{
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":""
+    //},
+    //ques_ans_446:{
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":"",
+    //    "":""
+    //}
 };
 const defaultHTML = document.body;
 
@@ -106,7 +151,7 @@ function doTest(ques_ans){//採点
         //テキストボックスの値を取得
         if(user_ans.value == Object.values(ques_ans)[i]){
             count++;
-            //ques.innerText += "○";
+            ques.innerText += "○";
         }
     }
     h3 = document.getElementById('score');
